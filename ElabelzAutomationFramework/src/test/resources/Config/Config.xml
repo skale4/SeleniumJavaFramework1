@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<Environment_Details>
+    <AppUrl>http://automationpractice.com/index.php</AppUrl>
+	</Environment_Details>
+	<timeout>80</timeout>
+	
+	<Execution_Details>
+		<Execution_Type>Single</Execution_Type>
+		<Regression_Suite_Name>eLabelza_automation_suite</Regression_Suite_Name>
+	</Execution_Details>
+
+</Root>

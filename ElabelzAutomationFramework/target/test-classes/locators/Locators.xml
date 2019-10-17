@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>  
+  <!--  Registration Page  -->  
+    <signin>//*[contains(text(),'Sign in')]</signin>
+    <emailRegister>//input[@id="email_create"]</emailRegister>
+    <createAccount>//button[@id="SubmitCreate"]/span</createAccount>
+    <title>//*[@id="id_gender1"]</title>
+    <firstName>//*[@id="customer_firstname"]</firstName>
+    <lastName>//*[@id="customer_lastname"]</lastName>
+    <email>//*[@id="email"]</email>
+    <password>//*[@id="passwd"]</password>
+    <firstName1>//*[@id="firstname"]</firstName1>
+    <lastName1>//*[@id="lastname"]</lastName1>
+    <company>//input[@id="company"]</company>
+    <address>//*[@id="address1"]</address>
+    <address2>//*[@id="address2"]</address2>
+    <city>//*[@id="city"]</city>
+    <state>//*[@id="id_state"]</state>
+    <postalCode>//input[@id="postcode"]</postalCode>
+    <country>//*[@id="id_country"]</country>
+    <additionalInfo>//*[@id="other"]</additionalInfo>
+    <homePhone>//*[@id="phone"]</homePhone>
+    <mobilePhone>//*[@id="phone_mobile"]</mobilePhone>
+    <alisAddress>//*[@id="alias"]</alisAddress>
+    <register>//button[@id="submitAccount"]/span</register>
+    
+    <!--  Login page -->
+    <emailLogin>//input[@id="email"]</emailLogin>
+    <passwordLogin>//input[@id="passwd"]</passwordLogin>
+    <signInLogin>//*[@id="SubmitLogin"]/span</signInLogin>
+    
+    <!--  order New Item -->
+    <tab1Women>//*[@id="block_top_menu"]/ul/li[1]/a</tab1Women>
+    <tshirt1>//img[@class="replace-2x img-responsive" and @title="Faded Short Sleeve T-shirts"]</tshirt1>
+    <addToCart1>//img[@class="replace-2x img-responsive" and @title="Faded Short Sleeve T-shirts"]//following::span[contains(text(),'Add to cart')]</addToCart1> 
+    <addToCart2>//form[@id="buy_block"]/div[1]/div[3]/div[1]/p[1]</addToCart2>
+    <proceedToCheckOut1>//*[@id="layer_cart"]/div[1]/div[2]/div[4]/a/span</proceedToCheckOut1>
+    <proceedToCheckOut2>//*[@id="center_column"]/p[2]/a[1]/span</proceedToCheckOut2>
+    <proceedToCheckOut3>//*[@id="center_column"]/form/p/button/span</proceedToCheckOut3>
+    <proceedToCheckOut4>//*[@id="form"]/p/button/span</proceedToCheckOut4>
+    
+</Root>
